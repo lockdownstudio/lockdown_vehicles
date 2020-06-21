@@ -6,7 +6,6 @@ files {
     'f150/vehiclelayouts.meta',
     'rav4/vehiclelayouts.meta',
     'm4/vehiclelayouts.meta',
-    'fd2/vehiclelayouts.meta',
     'ldbus/vehiclelayouts.meta'
 }
 
@@ -14,7 +13,6 @@ data_file 'VEHICLE_LAYOUTS_FILE' 'camry/vehiclelayouts.meta'
 data_file 'VEHICLE_LAYOUTS_FILE' 'hiacesc/vehiclelayouts.meta'
 data_file 'VEHICLE_LAYOUTS_FILE' 'f150/vehiclelayouts.meta'
 data_file 'VEHICLE_LAYOUTS_FILE' 'm4/vehiclelayouts.meta'
-data_file 'VEHICLE_LAYOUTS_FILE' 'fd2/vehiclelayouts.meta'
 data_file 'VEHICLE_LAYOUTS_FILE' 'ldbus/vehiclelayouts.meta'
 
 client_script {
