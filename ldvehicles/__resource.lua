@@ -277,19 +277,6 @@ data_file 'HANDLING_FILE' 'data/crv/handling.meta'
 data_file 'VEHICLE_METADATA_FILE' 'data/crv/vehicles.meta'
 data_file 'VEHICLE_VARIATION_FILE' 'data/crv/carvariations.meta'
 
---fd2
-files{
-	'data/fd2/vehicles.meta',
-	'data/fd2/carvariations.meta',
-	'data/fd2/handling.meta',
-	'data/fd2/carcols.meta',
-}
-
-data_file 'HANDLING_FILE' 'data/fd2/handling.meta'
-data_file 'VEHICLE_METADATA_FILE' 'data/fd2/vehicles.meta'
-data_file 'VEHICLE_VARIATION_FILE' 'data/fd2/carvariations.meta'
-data_file 'CARCOLS_FILE' 'data/fd2/carcols.meta'
-
 --pajero
 files{
 	'data/pajero/vehicles.meta',
@@ -530,14 +517,20 @@ data_file 'VEHICLE_METADATA_FILE' 'data/ldbus/vehicles.meta'
 data_file 'CARCOLS_FILE' 'data/ldbus/carcols.meta'
 data_file 'VEHICLE_VARIATION_FILE' 'data/ldbus/carvariations.meta'
 data_file 'CONTENT_UNLOCKING_META_FILE' 'data/ldbus/gm5303contentunlocks.meta'
---Altis
+
+-- Police Lexus
 files{
-	'data/toyota/handling.meta',
-	'data/toyota/vehicles.meta',
+	'data/police/vehicles.meta',
+	'data/police/carvariations.meta',
+	'data/police/carcols.meta',
+	'data/police/handling.meta',
 }
 
-data_file 'HANDLING_FILE' 'data/toyota/handling.meta'
-data_file 'VEHICLE_METADATA_FILE' 'data/toyota/vehicles.meta'
+data_file 'CARCOLS_FILE' 'data/police/carcols.meta'
+data_file 'HANDLING_FILE' 'data/police/handling.meta'
+data_file 'VEHICLE_METADATA_FILE' 'data/police/vehicles.meta'
+data_file 'VEHICLE_VARIATION_FILE' 'data/police/carvariations.meta'
+
 
 client_script {
     'vehicle_names.lua'
