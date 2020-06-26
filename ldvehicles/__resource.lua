@@ -460,8 +460,8 @@ data_file 'VEHICLE_METADATA_FILE' 'data/2012wrangler/vehicles.meta'
 data_file 'CARCOLS_FILE' 'data/2012wrangler/carcols.meta'
 data_file 'VEHICLE_VARIATION_FILE' 'data/2012wrangler/carvariations.meta'
 
-   --WHITELIST
-   --MECH
+										--WHITELIST
+											--MECH
 --silverado
 files{
 	'data/silverado/vehicles.meta',
@@ -473,7 +473,7 @@ data_file 'HANDLING_FILE' 'data/silverado/handling.meta'
 data_file 'VEHICLE_METADATA_FILE' 'data/silverado/vehicles.meta'
 data_file 'VEHICLE_VARIATION_FILE' 'data/silverado/carvariations.meta'
 
-	--EMS
+											--EMS--
 --charger
 files{
 	'data/emscharger/vehicles.meta',
@@ -500,10 +500,8 @@ data_file 'VEHICLE_METADATA_FILE' 'data/ems1/vehicles.meta'
 data_file 'CARCOLS_FILE' 'data/ems1/carcols.meta'
 data_file 'VEHICLE_VARIATION_FILE' 'data/ems1/carvariations.meta'
 
--- end
-
-	--LOCKDOWN BUS
-	--hilux
+								--GOVERNMENT--
+--LOCKDOWN BUS
 files{
 	'data/ldbus/vehicles.meta',
 	'data/ldbus/carvariations.meta',
@@ -518,6 +516,35 @@ data_file 'CARCOLS_FILE' 'data/ldbus/carcols.meta'
 data_file 'VEHICLE_VARIATION_FILE' 'data/ldbus/carvariations.meta'
 data_file 'CONTENT_UNLOCKING_META_FILE' 'data/ldbus/gm5303contentunlocks.meta'
 
+-- Secretary Car (Aston Martin)
+files{
+	'data/seccar/vehicles.meta',
+	'data/seccar/carvariations.meta',
+	'data/seccar/carcols.meta',
+	'data/seccar/handling.meta',
+}
+
+data_file 'HANDLING_FILE' 'data/seccar/handling.meta'
+data_file 'VEHICLE_METADATA_FILE' 'data/seccar/vehicles.meta'
+data_file 'CARCOLS_FILE' 'data/seccar/carcols.meta'
+data_file 'VEHICLE_VARIATION_FILE' 'data/seccar/carvariations.meta'
+
+-- Governor's Car (Jaguar)
+files{
+	'data/govcar/vehicles.meta',
+	'data/govcar/carvariations.meta',
+	'data/govcar/carcols.meta',
+	'data/govcar/handling.meta',
+	'data/govcar/xjcontentunlocks.meta',
+}
+
+data_file 'HANDLING_FILE' 'data/govcar/handling.meta'
+data_file 'VEHICLE_METADATA_FILE' 'data/govcar/vehicles.meta'
+data_file 'CARCOLS_FILE' 'data/govcar/carcols.meta'
+data_file 'VEHICLE_VARIATION_FILE' 'data/govcar/carvariations.meta'
+data_file 'CONTENT_UNLOCKING_META_FILE' 'data/govcar/xjcontentunlocks.meta'
+
+								--LDPD--
 -- Police Lexus
 files{
 	'data/police/vehicles.meta',
@@ -531,6 +558,21 @@ data_file 'HANDLING_FILE' 'data/police/handling.meta'
 data_file 'VEHICLE_METADATA_FILE' 'data/police/vehicles.meta'
 data_file 'VEHICLE_VARIATION_FILE' 'data/police/carvariations.meta'
 
+
+							-- EXCLUSIVES --
+--ALJON
+-- rx7
+files{
+	'data/rx7/vehicles.meta',
+	'data/rx7/carvariations.meta',
+	'data/rx7/carcols.meta',
+	'data/rx7/handling.meta',
+}
+
+data_file 'CARCOLS_FILE' 'data/rx7/carcols.meta'
+data_file 'HANDLING_FILE' 'data/rx7/handling.meta'
+data_file 'VEHICLE_METADATA_FILE' 'data/rx7/vehicles.meta'
+data_file 'VEHICLE_VARIATION_FILE' 'data/rx7/carvariations.meta'
 
 client_script {
     'vehicle_names.lua'
